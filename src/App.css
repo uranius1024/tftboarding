@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: "Poppins", helvetica;
+}
+.text-general {
+  opacity: 0.5;
+  color: #999999;
+}
