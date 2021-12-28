@@ -1,24 +1,113 @@
 /* HEADER */
-
-.HeadLogo {
-  line-height: 94px;
+.header {
+  background-color: orange;
 }
-.HeadLogo img {
+.list-menu {
+  float: right;
+  line-height: 32px;
+  margin-bottom: 0;
+  padding-top: 16px;
+  list-style: none;
+}
+
+.list-menu li {
+  float: left;
+  margin-right: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-left: 40px;
+}
+.list-menu li a {
+  padding: 2px 0 0 0;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.logo {
+  float: left;
+}
+.logo img {
   width: 100px;
   height: 50px;
 }
-.HeadList {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  line-height: 94px;
+/* HOMEPAGE */
+.homepage {
+  position: relative;
+  color: white;
 }
-.HeadList li {
+.bg-homepage {
+  background: url("../../public/images/home-bg.jpg") repeat scroll center center /
+    cover;
+  height: 100vh;
+  width: 100%;
+}
+.text-homepage {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.text-homepage .titile {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.text-homepage .subtitle {
   font-size: 14px;
-}
-.HeadList li a {
+  letter-spacing: 5px;
   font-weight: 500;
-  text-decoration: none;
+}
+.list-icon {
+  color: white;
+  padding-left: 0;
+}
+.list-icon li {
+  display: inline-block;
+  padding: 0 20px 0 0;
+}
+/* Portfolio */
+#portfolio {
+  padding: 100px 0;
+}
+.portfolio-list {
+  margin: 30px 0;
+}
+#portfolio-filters {
+  justify-content: center;
+}
+#portfolio-filters li {
+  text-transform: capitalize;
+}
+#portfolio-filters li a {
   color: black;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #b8a07e !important;
+  background-color: white !important;
+}
+.port-image img {
+  width: 100%;
+  margin-top: 30px;
+}
+/* BLOGPAGE */
+#blog {
+  background-color: #f7f7f7;
+}
+#content-blog {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#content-blog .card-body {
+  border: none;
+  text-align: left;
+  padding: 20px 0;
 }

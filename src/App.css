@@ -38,8 +38,8 @@
 }
 body {
   font-family: "Poppins", helvetica;
-  font-size: 15px;
 }
-.textGeneral {
+.text-general {
   opacity: 0.5;
+  color: #999999;
 }
