@@ -4,6 +4,7 @@ import Header from './Header'
 import HomePage from './HomePage'
 import Portfolio from './Portfolio'
 import BlogPage from './BlogPage'
+import Contact from './Contact'
 export default class LandingPage extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ export default class LandingPage extends Component {
                 <AboutPage />
                 <Portfolio />
                 <BlogPage />
+                <Contact />
             </>
         )
     }

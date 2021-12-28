@@ -72,6 +72,77 @@
   display: inline-block;
   padding: 0 20px 0 0;
 }
+/* ABOUT */
+#about {
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  padding-top: 190px;
+}
+
+#about .div-img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+}
+
+#about .div-img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#about .about-descr .p-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  text-align: left;
+}
+#about .about-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding: 100px 0;
+}
+.owl-item {
+  float: left;
+}
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+}
+
+.services-block .separator {
+  margin: 0;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.services-block i {
+  font-size: 44px;
+  color: #b8a07e;
+  line-height: 44px;
+}
+.services-block {
+  width: 262.5px !important;
+  margin-right: 20px;
+}
+.services-block p {
+  color: #999999;
+}
+.slick-dots li button:before {
+}
 /* Portfolio */
 #portfolio {
   padding: 100px 0;
@@ -110,4 +181,45 @@
   border: none;
   text-align: left;
   padding: 20px 0;
+}
+/* CONTACT */
+
+.content-contact {
+  padding: 100px 0;
+}
+.text-touch {
+  margin-top: 30px;
+  opacity: 0.8;
+}
+.text-touch p {
+  line-height: 1;
+}
+.form-contact {
+  border-radius: 0 !important;
+  border: 1px solid #999999 !important;
+  color: #999999;
+  font-size: 12px !important;
+  font-weight: 500;
+  height: 50 px;
+  padding-left: 10 px;
+  text-transform: uppercase;
+  height: 50px !important;
+  padding: 0 0 10px 10px;
+}
+.list-copyright {
+  text-align: center;
+  color: #999999;
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon-list {
+  list-style: none;
+  margin-left: -20px;
+}
+.icon-list li {
+  display: inline-block;
+  padding: 20px 0;
+  margin-right: 18px;
+  font-size: 25px;
 }
