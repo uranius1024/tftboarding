@@ -1,6 +1,5 @@
 /* HEADER */
 .header {
-  background-color: orange;
 }
 .list-menu {
   float: right;
@@ -27,6 +26,13 @@
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #292929;
+}
+.list-menu li a:hover {
+  color: #b8a07e;
+}
+.list-clear {
+  clear: both;
 }
 .logo {
   float: left;

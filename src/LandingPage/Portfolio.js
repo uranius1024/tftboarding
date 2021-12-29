@@ -40,30 +40,30 @@ export default class Portfolio extends Component {
                                     <div className="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="pills-home-tab">..
                                         <div className="portfolio-container container">
                                             <div className='row'>
-                                                <div className="col-4 port-image">
+                                                <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/1.jpg">
                                                         <img src="images/portfolio/1.jpg" alt="img" />
                                                     </a>
                                                 </div>
-                                                <div className="col-4 port-image">
+                                                <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/2.jpg">
                                                         <img src="images/portfolio/2.jpg" alt="img" />
                                                     </a>
-                                                </div> <div className="col-4 port-image">
+                                                </div> <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/3.jpg">
                                                         <img src="images/portfolio/3.jpg" alt="img" />
                                                     </a>
-                                                </div> <div className="col-4 port-image">
+                                                </div> <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/4.jpg">
                                                         <img src="images/portfolio/4.jpg" alt="img" />
                                                     </a>
                                                 </div>
-                                                <div className="col-4 port-image">
+                                                <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/5.jpg">
                                                         <img src="images/portfolio/5.jpg" alt="img" />
                                                     </a>
                                                 </div>
-                                                <div className="col-4 port-image">
+                                                <div className="col-md-4 col-sm-6 port-image">
                                                     <a className="popup-img" href="images/portfolio/6.jpg">
                                                         <img src="images/portfolio/6.jpg" alt="img" />
                                                     </a>

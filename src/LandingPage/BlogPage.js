@@ -9,7 +9,7 @@ export default class BlogPage extends Component {
                     <h1 className='title'>Journal</h1>
 
                     <div className="row pt-5">
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-6">
                             <div >
                                 <img src="images/blog-post-1.jpg" className="card-img-top" alt />
                                 <div className="card-body">
@@ -18,7 +18,7 @@ export default class BlogPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-6">
                             <div  >
                                 <img src="images/blog-post-2.jpg" className="card-img-top" alt />
                                 <div className="card-body">
@@ -27,7 +27,7 @@ export default class BlogPage extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-6">
                             <div >
                                 <img src="images/blog-post-3.jpg" className="card-img-top" alt />
                                 <div className="card-body">

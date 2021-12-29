@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "../css/main.css"
+import "../css/responsive.css"
 import { AiFillFacebook, AiFillTwitterCircle, AiFillInstagram, AiFillGooglePlusCircle } from "react-icons/ai";
 export default class Contact extends Component {
     render() {
@@ -30,8 +31,8 @@ export default class Contact extends Component {
                                         </div>
                                         <div className="col-md-6">
 
-                                            <input type="text" className="form-control form-contact" id="validationCustom01" placeholder="YOUR email" required />
-                                            <div className="valid-feedback">
+                                            <input type="text" className="form-control your-email form-contact" id="validationCustom01" placeholder="YOUR email" required />
+                                            <div className="valid-feedback ">
                                                 Looks good!
                                             </div>
 
