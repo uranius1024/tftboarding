@@ -5,17 +5,37 @@ import HomePage from './HomePage'
 import Portfolio from './Portfolio'
 import BlogPage from './BlogPage'
 import Contact from './Contact'
+import "../css/landingPage.css"
 export default class LandingPage extends Component {
     render() {
         return (
-            <>
-                <Header />
+            <div className='LandingPage'>
+                <div id="Header">
+                    <Header />
+                </div>
+                <div id="HomePage">
+                    <HomePage />
+                </div>
+                <div id="AboutPage">
+                    <AboutPage />
+                </div>
+                <div id="Portfolio">
+                    <Portfolio />
+                </div>
+                <div id="BlogPage">
+                    <BlogPage />
+                </div>
+                <div id="Contact">
+                    <Contact />
+                </div>
+
+                {/* <Header />
                 <HomePage />
                 <AboutPage />
                 <Portfolio />
                 <BlogPage />
-                <Contact />
-            </>
+                <Contact /> */}
+            </div>
         )
     }
 }

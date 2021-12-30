@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
 import { AiFillFacebook, AiFillTwitterCircle, AiFillInstagram, AiFillGooglePlusCircle } from "react-icons/ai";
+import Typical from "react-typical"
 export default class AboutPage extends Component {
 
     render() {
@@ -39,7 +40,9 @@ export default class AboutPage extends Component {
             ]
         };
         return (
+
             <div>
+
                 <div id="about" className="paddsection">
                     <div className="container">
                         <div className="row justify-content-between">
@@ -52,6 +55,7 @@ export default class AboutPage extends Component {
                             </div>
                             <div className="col-lg-7">
                                 <div className="about-descr">
+
                                     <p className="p-heading">im a ux /ui designer austin based who loves clean, simple &amp; unique design. i also enjoy crafting brand identities, icons, &amp; ilustration work. </p>
                                     <p className="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
                                 </div>
