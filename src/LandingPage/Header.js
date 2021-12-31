@@ -47,7 +47,7 @@ export default class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={1000}
+                                duration={600}
                             >
                                 Home
                             </Link></a></li>
@@ -57,7 +57,7 @@ export default class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={1000}
+                                duration={600}
                             >
                                 About
                             </Link></a></li>
@@ -67,7 +67,7 @@ export default class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={1000}
+                                duration={600}
                             >
                                 Portfolio
                             </Link></a></li>
@@ -77,7 +77,7 @@ export default class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={1000}
+                                duration={600}
                             >
                                 Blog
                             </Link></a></li>
@@ -87,7 +87,7 @@ export default class Header extends Component {
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={1000}
+                                duration={600}
                             >
                                 Contact
                             </Link></a></li>
@@ -100,7 +100,7 @@ export default class Header extends Component {
                             spy={true}
                             smooth={true}
                             offset={-100}
-                            duration={1000}
+                            duration={600}
                         >
                             Home
                         </Link></a></li>
@@ -110,7 +110,7 @@ export default class Header extends Component {
                             spy={true}
                             smooth={true}
                             offset={-100}
-                            duration={1000}
+                            duration={600}
                         >
                             About
                         </Link></a></li>
@@ -120,7 +120,7 @@ export default class Header extends Component {
                             spy={true}
                             smooth={true}
                             offset={-100}
-                            duration={1000}
+                            duration={600}
                         >
                             Portfolio
                         </Link></a></li>
@@ -130,7 +130,7 @@ export default class Header extends Component {
                             spy={true}
                             smooth={true}
                             offset={-100}
-                            duration={1000}
+                            duration={600}
                         >
                             Blog
                         </Link></a></li>
@@ -140,7 +140,7 @@ export default class Header extends Component {
                             spy={true}
                             smooth={true}
                             offset={-100}
-                            duration={1000}
+                            duration={600}
                         >
                             Contact
                         </Link></a></li>

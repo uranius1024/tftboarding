@@ -7,11 +7,13 @@ export default class AboutPage extends Component {
     render() {
         var settings = {
             dots: true,
-            infinite: false,
-            speed: 500,
+            infinite: true,
+            speed: 300,
             slidesToShow: 4,
             slidesToScroll: 4,
             initialSlide: 0,
+            autoplay: true,
+            autoplayspeed: 100,
             responsive: [
                 {
                     breakpoint: 1024,
