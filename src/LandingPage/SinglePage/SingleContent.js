@@ -8,7 +8,7 @@ export default function SingleContent() {
                     <div className="row justify-content-center">
                         <div className="col-md-8 col-md-offset-2">
                             <div className="row">
-                                <div className="container-main single-main">
+                                <div className="container-main pt-3 single-main">
                                     <div className="col-md-12">
                                         <div className="block-main mb-30">
                                             <img src="images/blog-post-big.jpg" className="img-responsive" alt="reviews2" />
