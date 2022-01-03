@@ -1,9 +1,9 @@
 import React, { Component, useEffect } from 'react';
-import "../css/main.css"
+import "../../css/main.css"
 import { Link } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaAlignRight } from 'react-icons/fa';
-export default class Header extends Component {
+export default class SingleHeader extends Component {
 
 
     constructor(props) {
@@ -31,6 +31,7 @@ export default class Header extends Component {
 
         let headerMenuClassName = 'header';
         return (
+
             <div className={headerMenuClassName}>
                 <div className='container'>
                     <div className="logo">

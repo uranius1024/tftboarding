@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
+import { Image } from 'antd';
 
 export default class Portfolio extends Component {
     render() {
         return (
-
             <>
                 <div id="portfolio" className="text-center paddsection">
                     <div className="container">
@@ -41,8 +41,8 @@ export default class Portfolio extends Component {
                                         <div className="portfolio-container container">
                                             <div className='row'>
                                                 <div className="col-md-4 col-sm-6 port-image">
-                                                    <a className="popup-img" href="images/portfolio/1.jpg">
-                                                        <img src="images/portfolio/1.jpg" alt="img" />
+                                                    <a className="popup-img" href="images/portfolio/2.jpg">
+                                                        <img src="images/portfolio/2.jpg" alt="img" />
                                                     </a>
                                                 </div>
                                                 <div className="col-md-4 col-sm-6 port-image">
@@ -73,9 +73,96 @@ export default class Portfolio extends Component {
                                         </div>
 
                                     </div>
-                                    <div className="tab-pane fade" id="illu" role="tabpanel" aria-labelledby="pills-profile-tab">...illu</div>
-                                    <div className="tab-pane fade" id="pill" role="tabpanel" aria-labelledby="pills-contact-tab">...pill</div>
-                                    <div className="tab-pane fade" id="pilill" role="tabpanel" aria-labelledby="pills-contact-tab">...pillpilill</div>
+                                    <div className="tab-pane fade" id="illu" role="tabpanel" aria-labelledby="pills-profile-tab">  <div className='row'>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/1.jpg">
+                                                <img src="images/portfolio/1.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/2.jpg">
+                                                <img src="images/portfolio/2.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/3.jpg">
+                                                <img src="images/portfolio/3.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/4.jpg">
+                                                <img src="images/portfolio/4.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/5.jpg">
+                                                <img src="images/portfolio/5.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/6.jpg">
+                                                <img src="images/portfolio/6.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                    </div></div>
+                                    <div className="tab-pane fade" id="pill" role="tabpanel" aria-labelledby="pills-contact-tab">  <div className='row'>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/1.jpg">
+                                                <img src="images/portfolio/1.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/2.jpg">
+                                                <img src="images/portfolio/2.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/3.jpg">
+                                                <img src="images/portfolio/3.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/4.jpg">
+                                                <img src="images/portfolio/4.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/5.jpg">
+                                                <img src="images/portfolio/5.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/6.jpg">
+                                                <img src="images/portfolio/6.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                    </div></div>
+                                    <div className="tab-pane fade" id="pilill" role="tabpanel" aria-labelledby="pills-contact-tab">  <div className='row'>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/1.jpg">
+                                                <img src="images/portfolio/1.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/2.jpg">
+                                                <img src="images/portfolio/2.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/3.jpg">
+                                                <img src="images/portfolio/3.jpg" alt="img" />
+                                            </a>
+                                        </div> <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/4.jpg">
+                                                <img src="images/portfolio/4.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/5.jpg">
+                                                <img src="images/portfolio/5.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="col-md-4 col-sm-6 port-image">
+                                            <a className="popup-img" href="images/portfolio/6.jpg">
+                                                <img src="images/portfolio/6.jpg" alt="img" />
+                                            </a>
+                                        </div>
+                                    </div></div>
                                 </div>
                             </div>
                         </div>
