@@ -24,9 +24,9 @@ export default class LandingPage extends Component {
                 <div id="Portfolio">
                     <Portfolio1 />
                 </div>
-                <div id="BlogPage">
+                {/* <div id="BlogPage">
                     <BlogPage />
-                </div>
+                </div> */}
                 <div id="Contact">
                     <Contact />
                 </div>

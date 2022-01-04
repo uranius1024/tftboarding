@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
-import { AiFillFacebook, AiFillTwitterCircle, AiFillInstagram, AiFillGooglePlusCircle } from "react-icons/ai";
+import { AiFillHtml5, AiFillInstagram, AiFillGooglePlusCircle } from "react-icons/ai";
+import { DiCss3, DiSass } from "react-icons/di";
+import { SiSimpleanalytics, SiAdobephotoshop } from "react-icons/si"
+import { GrReactjs } from "react-icons/gr";
+
 import Typical from "react-typical"
 export default class AboutPage extends Component {
 
@@ -51,7 +55,7 @@ export default class AboutPage extends Component {
                             <div className="col-lg-4 ">
                                 <div className="div-img-bg">
                                     <div className="about-img">
-                                        <img src="images/me.jpg" className="img-responsive" alt="me" />
+                                        <img src="images/newAvatar.jpg" className="img-responsive" alt="me" />
                                     </div>
                                 </div>
                             </div>
@@ -69,38 +73,38 @@ export default class AboutPage extends Component {
                     <Slider {...settings} className='container pt-5 pb-5'>
                         <div className="services-block">
                             <i>
-                                <AiFillFacebook />
+                                <AiFillHtml5 />
                             </i>
-                            <span>UI/UX DESIGN</span>
+                            <span>HTML5</span>
                             <p className="separator">To an English person, it will seem like simplified English,told me what </p>
                         </div>
                         <div className="services-block">
                             <i>
-                                <AiFillTwitterCircle />
-                            </i>
-
-                            <span>BRAND IDENTITY</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
-                        </div>
-                        <div className="services-block">
-                            <i>
-                                <AiFillInstagram />
+                                <DiCss3 />
                             </i>
 
-                            <span>WEB DESIGN</span>
+                            <span>CSS</span>
                             <p className="separator">To an English person, it will seem like simplified English,told me what </p>
                         </div>
                         <div className="services-block">
                             <i>
-                                <AiFillGooglePlusCircle />
+                                <DiSass />
                             </i>
 
-                            <span>MOBILE APPS</span>
+                            <span>SASS</span>
                             <p className="separator">To an English person, it will seem like simplified English,told me what </p>
                         </div>
                         <div className="services-block">
                             <i>
-                                <AiFillGooglePlusCircle />
+                                <GrReactjs />
+                            </i>
+
+                            <span>REACTJS</span>
+                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
+                        </div>
+                        <div className="services-block">
+                            <i>
+                                <SiSimpleanalytics />
                             </i>
 
                             <span>Analytics</span>
@@ -108,7 +112,7 @@ export default class AboutPage extends Component {
                         </div>
                         <div className="services-block">
                             <i>
-                                <AiFillGooglePlusCircle />
+                                <SiAdobephotoshop />
                             </i>
 
                             <span>PHOTOGRAPHY</span>
