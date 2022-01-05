@@ -3,6 +3,10 @@ import "../css/main.css"
 import { Link } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaAlignRight } from 'react-icons/fa';
+import { SiFacebook } from "react-icons/si";
+import { FcLink, FcLike, FcPicture } from "react-icons/fc"
+
+import { AiOutlineSkype } from "react-icons/ai"
 export default class Header extends Component {
 
 
@@ -22,7 +26,7 @@ export default class Header extends Component {
             if ((currentScrollPosition - defaultScrollPosition) > 500) {
                 document.getElementsByClassName("header")[0].style.top = "0px";
             } else {
-                document.getElementsByClassName("header")[0].style.top = "-50px";
+                document.getElementsByClassName("header")[0].style.top = "-75px";
             }
         }
     }
@@ -34,7 +38,7 @@ export default class Header extends Component {
             <div className={headerMenuClassName}>
                 <div className='container'>
                     <div className="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                        <a href="index.html"><img className='w-100' src="images/signature.png" alt="logo" /></a>
                     </div>
                     <div className='navBar nav-menu-after'>
                         <button onClick={this.isShowResponsiveMenu}>
@@ -81,9 +85,9 @@ export default class Header extends Component {
                             >
                                 Blog
                             </Link></a></li>
-                            <li><a href="#contact" className="smoothScroll"><Link
+                            <li><a href="#timeline" className="smoothScroll"><Link
                                 activeClass="active"
-                                to="Contact"
+                                to="Timeline"
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
@@ -126,14 +130,15 @@ export default class Header extends Component {
                         </Link></a></li>
                         <li><a href="#journal" className="smoothScroll"><Link
                             activeClass="active"
-                            to="BlogPage"
+                            to="Timeline"
                             spy={true}
                             smooth={true}
                             offset={-100}
                             duration={600}
                         >
-                            Blog
+                            Timeline
                         </Link></a></li>
+
                         <li><a href="#contact" className="smoothScroll"><Link
                             activeClass="active"
                             to="Contact"
@@ -146,7 +151,36 @@ export default class Header extends Component {
                         </Link></a></li>
                     </ul>
                     <div className='list-clear'></div>
+                    {/* <div className='timeline'>
+                        <div className='lineTimeline'>
+                            <div className='line'></div>
+                        </div>
+                        <div className='circleBrand'>
+                            <ul>
+                                <li><a className='icon-timeline'><i>
+                                    <SiFacebook />
+                                </i>
+                                </a></li>
+                                <li><a className='icon-timeline'><i>
+                                    <FcLink />
+                                </i>
+                                </a></li> <li><a className='icon-timeline'><i>
+                                    <AiOutlineSkype />
+                                </i>
+                                </a></li> <li><a className='icon-timeline'><i>
+                                    <FcLike />
+                                </i>
+                                </a></li> <li><a className='icon-timeline'><i>
+                                    <FcPicture />
+                                </i>
+                                </a></li>
 
+
+
+
+                            </ul>
+                        </div>
+                    </div> */}
                     {/* <ul className="nav-menu-after text-general ">
                         <li><a href="#header" className="smoothScroll">Home</a></li>
                         <li><a href="#about" className="smoothScroll">About</a></li>

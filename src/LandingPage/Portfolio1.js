@@ -4,6 +4,10 @@ import "../css/main.css";
 
 export default function Portfolio1() {
     const [visible, setVisible] = useState(false);
+    const [visible1, setVisible1] = useState(false);
+    const [visible2, setVisible2] = useState(false);
+
+
     return (
         <div>
             <>
@@ -16,7 +20,7 @@ export default function Portfolio1() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <div className="portfolio-list">
+                                {/* <div className="portfolio-list">
                                     <ul className="nav nav-pills mb-3 justify-content-center" id="portfolio-filters" role="tablist">
                                         <li className="nav-item" role="presentation">
                                             <a className="nav-link active" id="pills-home-tab" data-toggle="pill" href="#all" role="tab" aria-controls="pills-home" aria-selected="true">all</a>
@@ -37,20 +41,20 @@ export default function Portfolio1() {
                                             <a className="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pilill" role="tab" aria-controls="pills-contact" aria-selected="false">photography</a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="tab-content" id="pills-tabContent">
                                     <div className="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="pills-home-tab">
                                         <div className="portfolio-container container">
                                             <div className='row'>
                                                 <div className="col-md-4 col-sm-6 port-image">
                                                     <div className='previewProject'>
-                                                        <img src="images/portfolio/1.jpg" alt="img" />
+                                                        <img src="images/portfolio/OanTuXi.png" alt="img" />
                                                     </div>
                                                     <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="Detail Project"
+                                                        title=""
                                                         centered
                                                         visible={visible}
                                                         onOk={() => setVisible(false)}
@@ -59,11 +63,13 @@ export default function Portfolio1() {
                                                     >
                                                         <div className='row'>
                                                             <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/1.jpg" alt="img" />
+                                                                <img className='w-100' src="images/portfolio/OanTuXi.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h3>OanTuXi Project</h3>
-                                                                <p>Luong Trong Quyen dang uong ca phe</p>
+                                                                <h5>OanTuXi Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
                                                             </div>
 
                                                         </div>
@@ -71,26 +77,28 @@ export default function Portfolio1() {
                                                 </div>
                                                 <div className="col-md-4 col-sm-6 port-image">
                                                     <div className='previewProject'>
-                                                        <img src="images/portfolio/2.jpg" alt="img" />
+                                                        <img src="images/portfolio/BookingFilm.png" alt="img" />
                                                     </div>
-                                                    <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
+                                                    <Button className='btn-preview' type="" onClick={() => setVisible1(true)}>
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="Detail Project"
+                                                        title=""
                                                         centered
-                                                        visible={visible}
-                                                        onOk={() => setVisible(false)}
-                                                        onCancel={() => setVisible(false)}
+                                                        visible={visible1}
+                                                        onOk={() => setVisible1(false)}
+                                                        onCancel={() => setVisible1(false)}
                                                         width={1000}
                                                     >
                                                         <div className='row'>
                                                             <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/2.jpg" alt="img" />
+                                                                <img className='w-100' src="images/portfolio/BookingFilm.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h3>WebFilm Project</h3>
-                                                                <p>Luong Trong Quyen dang uong ca phe</p>
+                                                                <h5>BookingFilm Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
                                                             </div>
 
                                                         </div>
@@ -98,112 +106,35 @@ export default function Portfolio1() {
                                                 </div>
                                                 <div className="col-md-4 col-sm-6 port-image">
                                                     <div className='previewProject'>
-                                                        <img src="images/portfolio/3.jpg" alt="img" />
+                                                        <img className='' src="images/portfolio/WebBookShare.png" alt="img" />
                                                     </div>
-                                                    <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
+                                                    <Button className='btn-preview' type="" onClick={() => setVisible2(true)}>
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="Detail Project"
+                                                        title=""
                                                         centered
-                                                        visible={visible}
-                                                        onOk={() => setVisible(false)}
-                                                        onCancel={() => setVisible(false)}
+                                                        visible={visible2}
+                                                        onOk={() => setVisible2(false)}
+                                                        onCancel={() => setVisible2(false)}
                                                         width={1000}
                                                     >
                                                         <div className='row'>
                                                             <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/3.jpg" alt="img" />
+                                                                <img className='w-100 ' src="images/portfolio/WebBookShare.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h3>WebFilm Project</h3>
-                                                                <p>Luong Trong Quyen dang uong ca phe</p>
+                                                                <h5>SaleBook Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
+
                                                             </div>
 
                                                         </div>
                                                     </Modal>
                                                 </div>
-                                                <div className="col-md-4 col-sm-6 port-image">
-                                                    <div className='previewProject'>
-                                                        <img src="images/portfolio/4.jpg" alt="img" />
-                                                    </div>
-                                                    <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
-                                                        Preview Project
-                                                    </Button>
-                                                    <Modal
-                                                        title="Detail Project"
-                                                        centered
-                                                        visible={visible}
-                                                        onOk={() => setVisible(false)}
-                                                        onCancel={() => setVisible(false)}
-                                                        width={1000}
-                                                    >
-                                                        <div className='row'>
-                                                            <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/4.jpg" alt="img" />
-                                                            </div>
-                                                            <div className='col-md-6'>
-                                                                <h3>WebFilm Project</h3>
-                                                                <p>Luong Trong Quyen dang uong ca phe</p>
-                                                            </div>
 
-                                                        </div>
-                                                    </Modal>
-                                                </div>
-                                                <div className="col-md-4 col-sm-6 port-image">
-                                                    <div className='previewProject'>
-                                                        <img src="images/portfolio/5.jpg" alt="img" />
-                                                    </div>
-                                                    <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
-                                                        Preview Project
-                                                    </Button>
-                                                    <Modal
-                                                        title="Detail Project"
-                                                        centered
-                                                        visible={visible}
-                                                        onOk={() => setVisible(false)}
-                                                        onCancel={() => setVisible(false)}
-                                                        width={1000}
-                                                    >
-                                                        <div className='row'>
-                                                            <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/5.jpg" alt="img" />
-                                                            </div>
-                                                            <div className='col-md-6'>
-                                                                <h3>WebFilm Project</h3>
-                                                                <p>Luong Trong Quyen dang uong ca phe</p>
-                                                            </div>
-
-                                                        </div>
-                                                    </Modal>
-                                                </div>
-                                                <div className="col-md-4 col-sm-6 port-image">
-                                                    <div className='previewProject'>
-                                                        <img src="images/portfolio/6.jpg" alt="img" />
-                                                    </div>
-                                                    <Button className='btn-preview' type="" onClick={() => setVisible(true)}>
-                                                        Preview Project
-                                                    </Button>
-                                                    <Modal
-                                                        title="Detail Project"
-                                                        centered
-                                                        visible={visible}
-                                                        onOk={() => setVisible(false)}
-                                                        onCancel={() => setVisible(false)}
-                                                        width={1000}
-                                                    >
-                                                        <div className='row'>
-                                                            <div className='col-md-6'>
-                                                                <img className='w-100' src="images/portfolio/6.jpg" alt="img" />
-                                                            </div>
-                                                            <div className='col-md-6'>
-                                                                <h3>WebFilm Project</h3>
-                                                                <p>Luong Trong Quyen nghi uong ca phe</p>
-                                                            </div>
-
-                                                        </div>
-                                                    </Modal>
-                                                </div>
 
 
 
