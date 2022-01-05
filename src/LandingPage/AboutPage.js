@@ -102,20 +102,13 @@ export default class AboutPage extends Component {
                             <span>REACTJS</span>
                             <p className="separator">To an English person, it will seem like simplified English,told me what </p>
                         </div>
-                        <div className="services-block">
-                            <i>
-                                <SiSimpleanalytics />
-                            </i>
 
-                            <span>Analytics</span>
-                            <p className="separator">To an English person, it will seem like simplified English,told me what </p>
-                        </div>
                         <div className="services-block">
                             <i>
                                 <SiAdobephotoshop />
                             </i>
 
-                            <span>PHOTOGRAPHY</span>
+                            <span>PHOTOSHOP</span>
                             <p className="separator">To an English person, it will seem like simplified English,told me what </p>
                         </div>
 

@@ -8,6 +8,7 @@ import Contact from './Contact'
 import "../css/landingPage.css"
 
 import Portfolio1 from './Portfolio1'
+import TimelinePage from './TimelinePage'
 export default class LandingPage extends Component {
     render() {
         return (
@@ -24,6 +25,10 @@ export default class LandingPage extends Component {
                 <div id="Portfolio">
                     <Portfolio1 />
                 </div>
+
+                <div id="Timeline">
+                    <TimelinePage />
+                </div>
                 {/* <div id="BlogPage">
                     <BlogPage />
                 </div> */}
@@ -31,7 +36,9 @@ export default class LandingPage extends Component {
                     <Contact />
                 </div>
 
-
+                {/* <div id="Portfolio1">
+                    <Portfolio />
+                </div> */}
                 {/* <Header />
                 <HomePage />
                 <AboutPage />

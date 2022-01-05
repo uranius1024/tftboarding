@@ -71,7 +71,7 @@ export default class Contact extends Component {
                 <div className='copyright'>
                     <div className='list-copyright'>
                         <ul className='icon-list'>
-                            <li><a href='https://www.facebook.com/tulong.trieu.9887'><AiFillFacebook /></a></li>
+
                             <li><i><AiFillTwitterCircle /></i></li>
                             <li><i>
                                 <AiFillInstagram /></i></li>

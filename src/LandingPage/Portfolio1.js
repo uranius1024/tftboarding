@@ -54,7 +54,7 @@ export default function Portfolio1() {
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="OanTuXi Web"
+                                                        title=""
                                                         centered
                                                         visible={visible}
                                                         onOk={() => setVisible(false)}
@@ -66,10 +66,10 @@ export default function Portfolio1() {
                                                                 <img className='w-100' src="images/portfolio/OanTuXi.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h5>DESCRIPTION</h5>
-                                                                <p>TECHNOLOGY: HTML5, CSS3, REACTJS</p>
-                                                                <p>TIME WORKING:</p>
-                                                                <p className='thisproject'>THIS PROJECT IS MADE BY ME </p>
+                                                                <h5>OanTuXi Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
                                                             </div>
 
                                                         </div>
@@ -83,7 +83,7 @@ export default function Portfolio1() {
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="BookingFilm Web"
+                                                        title=""
                                                         centered
                                                         visible={visible1}
                                                         onOk={() => setVisible1(false)}
@@ -95,10 +95,10 @@ export default function Portfolio1() {
                                                                 <img className='w-100' src="images/portfolio/BookingFilm.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h5>DESCRIPTION</h5>
-                                                                <p>TECHNOLOGY: HTML5, CSS3, REACTJS</p>
-                                                                <p>TIME WORKING:</p>
-                                                                <p className='thisproject'>THIS PROJECT IS MADE BY ME </p>
+                                                                <h5>BookingFilm Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
                                                             </div>
 
                                                         </div>
@@ -112,7 +112,7 @@ export default function Portfolio1() {
                                                         Preview Project
                                                     </Button>
                                                     <Modal
-                                                        title="SaleBook Web"
+                                                        title=""
                                                         centered
                                                         visible={visible2}
                                                         onOk={() => setVisible2(false)}
@@ -124,10 +124,10 @@ export default function Portfolio1() {
                                                                 <img className='w-100 ' src="images/portfolio/WebBookShare.png" alt="img" />
                                                             </div>
                                                             <div className='col-md-6'>
-                                                                <h5>DESCRIPTION</h5>
-                                                                <p>TECHNOLOGY: HTML5, CSS3, REACTJS</p>
-                                                                <p>TIME WORKING:</p>
-                                                                <p className='thisproject'>THIS PROJECT IS MADE BY ME </p>
+                                                                <h5>SaleBook Web</h5>
+                                                                <p>This project is built by HTML5, CSS3, REACTJS</p>
+                                                                <p>The Captions workspace consists of the Text panel (including the Transcript and Captions tabs). You auto-transcribe your video in the Transcript tab, and then generate your captions, which you can edit in the Captions tab and in the Program Monitor. Captions have their own track on the timeline. Stylize your captions with the design tools in the Essential Graphics panel.</p>
+
 
                                                             </div>
 
