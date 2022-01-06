@@ -2,11 +2,7 @@ import React, { Component, useEffect } from 'react';
 import "../css/main.css"
 import { Link } from 'react-scroll';
 import { AiOutlineMenu } from "react-icons/ai";
-import { FaAlignRight } from 'react-icons/fa';
-import { SiFacebook } from "react-icons/si";
-import { FcLink, FcLike, FcPicture } from "react-icons/fc"
 
-import { AiOutlineSkype } from "react-icons/ai"
 export default class Header extends Component {
 
 
@@ -26,7 +22,7 @@ export default class Header extends Component {
             if ((currentScrollPosition - defaultScrollPosition) > 500) {
                 document.getElementsByClassName("header")[0].style.top = "0px";
             } else {
-                document.getElementsByClassName("header")[0].style.top = "-75px";
+                document.getElementsByClassName("header")[0].style.top = "-150px";
             }
         }
     }

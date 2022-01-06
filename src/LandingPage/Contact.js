@@ -10,7 +10,7 @@ export default class Contact extends Component {
                 <div className='contact'>
                     <div className='container content-contact'>
                         <div className='row'>
-                            <div className='col-md-4 get-touch'>
+                            <div className='col-md-4 col-sm-4 col-xl-4 get-touch'>
                                 <h2 className='title'> GET IN TOUCH</h2>
                                 <div className='text-general text-touch'>
                                     <p>Pho Co Dieu, Street </p>
@@ -19,9 +19,9 @@ export default class Contact extends Component {
                                     <p>luongtrongq@gmail.com</p>
                                 </div>
                             </div>
-                            <div className='col-md-8 get-input text-center'>
+                            <div className='col-md-8 col-sm-8 col-xl-8 get-input text-center'>
 
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.688121491676!2d106.65488871480066!3d10.758502092333728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eed8ac091f5%3A0x191f077fc4789490!2zUGjDsyBDxqEgxJBp4buBdSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1sen!2s!4v1641281516684!5m2!1sen!2s" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" />
+                                <iframe className='w-100' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.688121491676!2d106.65488871480066!3d10.758502092333728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eed8ac091f5%3A0x191f077fc4789490!2zUGjDsyBDxqEgxJBp4buBdSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1sen!2s!4v1641281516684!5m2!1sen!2s" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" />
 
 
 

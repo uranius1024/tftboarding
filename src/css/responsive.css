@@ -16,35 +16,6 @@
   color: #b8a07e;
 }
 
-@media (max-width: 1000px) {
-  /* Header */
-  .list-menu {
-    display: none;
-  }
-  .responsiveMenu {
-    float: right;
-    margin-top: 12px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-
-  /* Contact */
-  .your-email {
-    margin-top: 20px;
-  }
-}
-@media (min-width: 980px) {
-  /* Header */
-  .responsiveMenu {
-    display: none;
-  }
-  .nav-menu-after {
-    display: none;
-  }
-}
-li {
-  padding: 10px 0;
-}
 /* Class */
 .navBar {
   width: 100%;
@@ -78,18 +49,97 @@ li {
 .nav-menu-after ul {
   margin-top: 80px;
 }
-/* Media screen size */
-@media screen and (min-width: 768px) {
-  button {
+/* ---------------------------------------------------------------------------------------------------- */
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) {
+  .header {
+    background-color: tomato;
+  }
+  .responsiveMenu {
+    display: none;
+  }
+  .nav-menu-after {
     display: none;
   }
 
-  .links {
-    height: auto;
-    display: flex;
+  li {
+    padding: 10px 0;
+  }
+}
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    background-color: yellow;
+  }
+  .responsiveMenu {
+    display: none;
+  }
+  .nav-menu-after {
+    display: none;
   }
 
   li {
-    padding: 0 15px;
+    padding: 10px 0;
+  }
+  .circleBrand {
+    left: 130px;
+  }
+  .circleBrand ul li {
+    margin: 0 70px;
+  }
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    background-color: turquoise;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .circleBrand .nav {
+    display: inline-block;
+  }
+  .circleBrand {
+    left: 0;
+    margin-bottom: 30px;
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .header {
+    background-color: violet;
+  }
+  .circleBrand .nav {
+    display: inline-block;
+  }
+  .circleBrand {
+    left: 0;
+  }
+  .line {
+    width: 100%;
+  }
+  .timeline {
+    padding-left: 0;
+  }
+  .circleBrand ul li {
+    margin: 0 80px;
   }
 }

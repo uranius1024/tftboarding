@@ -20,16 +20,16 @@ export default class TimelinePage extends Component {
                         </div>
                         <div className='circleBrand'>
                             <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                <li className='nav-item' ><a className='icon-timeline nav-link active' id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" ><i>
-                                    <SiFacebook />
+                                <li className='nav-item img-timeline-spec' ><a className='icon-timeline nav-link active' id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" ><i>
+                                    <img className='img-timeline w-100' src='images/ueh-logo.jpg' alt="img" />
                                 </i>
                                 </a></li>
                                 <li className='nav-item' ><a className='icon-timeline nav-link ' id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" ><i>
-                                    <FcLink />
+                                    <img className='img-timeline w-100' src='images/cyber.png' alt="img" />
                                 </i>
                                 </a></li>
                                 <li className='nav-item'><a className='icon-timeline nav-link ' id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" ><i>
-                                    <AiOutlineSkype />
+                                    <img className='img-timeline w-100' src='images/vnresource.jpg' alt="img" />
                                 </i>
                                 </a></li>
 
