@@ -1,0 +1,31 @@
+@media (min-width: 980px) and (max-width: 1180px) {
+  /* Header */
+  .responsiveMenu {
+    display: none;
+  }
+  .nav-menu-after {
+    display: none;
+  }
+
+  li {
+    padding: 10px 0;
+  }
+  .header {
+    background-color: yellowgreen;
+  }
+}
+/* Media screen size */
+@media (max-width: 981px) and (min-width: 1199px) {
+  button {
+    display: none;
+  }
+
+  .links {
+    height: auto;
+    display: flex;
+  }
+
+  li {
+    padding: 0 15px;
+  }
+}

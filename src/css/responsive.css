@@ -16,35 +16,6 @@
   color: #b8a07e;
 }
 
-@media (max-width: 1000px) {
-  /* Header */
-  .list-menu {
-    display: none;
-  }
-  .responsiveMenu {
-    float: right;
-    margin-top: 12px;
-    cursor: pointer;
-    font-size: 20px;
-  }
-
-  /* Contact */
-  .your-email {
-    margin-top: 20px;
-  }
-}
-@media (min-width: 980px) {
-  /* Header */
-  .responsiveMenu {
-    display: none;
-  }
-  .nav-menu-after {
-    display: none;
-  }
-}
-li {
-  padding: 10px 0;
-}
 /* Class */
 .navBar {
   width: 100%;
@@ -78,18 +49,110 @@ li {
 .nav-menu-after ul {
   margin-top: 80px;
 }
-/* Media screen size */
-@media screen and (min-width: 768px) {
-  button {
+/* ---------------------------------------------------------------------------------------------------- */
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 1200px) {
+  .responsiveMenu {
+    display: none;
+  }
+  .nav-menu-after {
     display: none;
   }
 
-  .links {
-    height: auto;
-    display: flex;
+  li {
+    padding: 10px 0;
+  }
+  .circleBrand {
+    left: 130px;
+  }
+  .circleBrand ul li {
+    margin: 0 90px;
+  }
+}
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .responsiveMenu {
+    display: none;
+  }
+  .nav-menu-after {
+    display: none;
   }
 
   li {
-    padding: 0 15px;
+    padding: 10px 0;
+  }
+  .circleBrand {
+    left: 130px;
+  }
+  .circleBrand ul li {
+    margin: 0 70px;
+  }
+  .circleBrand {
+    left: 95px;
+  }
+}
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 991px) {
+  .nav-menu {
+    display: none;
+  }
+  .circleBrand .nav {
+    display: inline-block;
+  }
+  .circleBrand {
+    top: -60px;
+    left: 65px;
+
+    margin-bottom: 30px;
+  }
+  .circleBrand ul li {
+    margin: 20px 44px 40px 44px !important;
+  }
+  .timeline-pic {
+    display: contents;
+  }
+  .timeline-pic img {
+    width: 50% !important;
+  }
+}
+
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .circleBrand .nav {
+    display: inline-block;
+  }
+
+  .line {
+    width: 100%;
+  }
+  .timeline {
+    padding-left: 0;
+  }
+  .circleBrand {
+    top: -60px;
+    left: 0px;
+
+    margin-bottom: 30px;
+  }
+  .circleBrand ul li {
+    margin: 11px 20px 40px 48px !important;
   }
 }

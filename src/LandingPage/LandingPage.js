@@ -5,9 +5,10 @@ import HomePage from './HomePage'
 import Portfolio from './Portfolio'
 import BlogPage from './BlogPage'
 import Contact from './Contact'
-import "../css/landingPage.css"
+// import "../css/landingPage.css"
 
 import Portfolio1 from './Portfolio1'
+import TimelinePage from './TimelinePage'
 export default class LandingPage extends Component {
     render() {
         return (
@@ -24,14 +25,20 @@ export default class LandingPage extends Component {
                 <div id="Portfolio">
                     <Portfolio1 />
                 </div>
-                <div id="BlogPage">
-                    <BlogPage />
+
+                <div id="Timeline">
+                    <TimelinePage />
                 </div>
+                {/* <div id="BlogPage">
+                    <BlogPage />
+                </div> */}
                 <div id="Contact">
                     <Contact />
                 </div>
 
-
+                {/* <div id="Portfolio1">
+                    <Portfolio />
+                </div> */}
                 {/* <Header />
                 <HomePage />
                 <AboutPage />

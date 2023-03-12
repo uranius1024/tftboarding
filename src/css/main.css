@@ -7,16 +7,16 @@
   background-color: white;
 
   margin: 0;
-  top: -50px;
+  top: -75px;
   margin: 0;
   box-shadow: black -1px -20px 20px 20px;
   transition: ease-in-out 0.75s;
 }
 .list-menu {
   float: right;
-  line-height: 32px;
+  line-height: 44px;
   margin-bottom: 0;
-  padding-top: 16px;
+  padding-top: 22px;
   list-style: none;
 }
 
@@ -40,7 +40,7 @@
   color: #292929;
 }
 .list-menu li a:hover {
-  color: #b8a07e;
+  color: #2e5994;
 }
 .list-clear {
   clear: both;
@@ -49,8 +49,8 @@
   float: left;
 }
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 75px;
 }
 /* HOMEPAGE */
 .homepage {
@@ -58,8 +58,8 @@
   color: white;
 }
 .bg-homepage {
-  background: url("../../public/images/home-bg.jpg") repeat scroll center center /
-    cover;
+  background: url("../../public/images/newAvatar.jpg") repeat scroll center
+    center / cover;
   height: 100vh;
   width: 100%;
 }
@@ -105,7 +105,7 @@
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #2e5994;
 }
 
 #about .div-img-bg .about-img img {
@@ -154,7 +154,7 @@
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #2e5994;
   line-height: 44px;
 }
 .services-block {
@@ -182,9 +182,16 @@
 #portfolio-filters li a {
   color: black;
 }
+.thisproject {
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+  font-weight: 600;
+  font-style: italic;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #b8a07e !important;
+  color: #2e5994 !important;
   background-color: white !important;
 }
 .previewProject {
@@ -208,11 +215,15 @@
   position: absolute;
   top: -20px;
   left: 0;
-  background-color: #b8a07e !important;
-  color: rgba(0, 0, 0, 0.5) !important;
+  background-color: #2e5994 !important;
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 600 !important  ;
   border-radius: 20px !important;
   width: 150px;
+  transition: ease-in-out 0.75s !important;
+}
+.btn-preview:hover {
+  color: white !important;
 }
 /* BLOGPAGE */
 #blog {
@@ -315,7 +326,7 @@
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #2e5994;
 }
 
 .post-meta ul li {
@@ -400,7 +411,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #2e5994;
 }
 .paddsection .form-control {
   border: 1px solid black;
@@ -411,4 +422,106 @@ blockquote {
   color: white;
   border-radius: 0;
   width: 200px;
+}
+/* TIMELINEPAGE */
+.line {
+  width: 93%;
+  border-bottom: 5px solid black;
+  opacity: 0.1;
+  border-radius: 30%;
+}
+.timeline {
+  position: relative;
+  text-align: center;
+  padding-left: 80px;
+}
+.bg-timeline {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+.bg-timeline .section-title {
+  padding-bottom: 50px;
+}
+.circleBrand {
+  position: absolute;
+  top: -48px;
+  left: 130px;
+  z-index: 99;
+}
+.circleBrand .nav-item {
+  width: 96px;
+  height: 50px;
+}
+.circleBrand .img-timeline-spec {
+  width: 100px !important;
+}
+.circleBrand .img-timeline-spec .icon-timeline {
+  border-radius: 50%;
+}
+.circleBrand .img-timeline-spec img {
+  padding: 17px 0;
+}
+.circleBrand ul {
+  list-style: none;
+}
+.circleBrand ul li {
+  display: inline-block;
+  margin: 0 90px;
+  transition: ease-in-out 0.75s;
+}
+.circleBrand ul li:hover {
+  transform: translateY(-4px);
+}
+.icon-timeline {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0px 0px 10px 1px #dadada;
+  border-radius: 50% !important;
+  transition: ease-in-out 0.75s;
+}
+.icon-timeline .circleImg {
+  border-radius: 50%;
+  padding: 4px 0;
+}
+.icon-timeline i {
+  font-size: 20px;
+}
+.circleBrand .icon-timeline:hover {
+  box-shadow: 0 3px 20px 3px #dadada;
+}
+.timeline-content {
+  margin-top: 150px;
+}
+.timeline-pic {
+}
+.timeline-pic img {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+}
+.text-timeline {
+  font-size: 18px;
+  opacity: 0.5;
+}
+.timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(2/1fr);
+}
+.iframe {
+  border-radius: 30px;
+}
+/* Fix */
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-body {
+  padding: 50px !important;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height: 190px;
+}
+
+.timeline-pic img {
+  height: 100%;
 }
